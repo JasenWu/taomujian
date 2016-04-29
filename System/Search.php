@@ -1,0 +1,121 @@
+﻿<?php include("../Common/admin_function.php") ;?>
+<?php include("CheckAdmin.php") ;?>
+<?php
+$Result=$_GET[Result];
+$Keyword=$_POST[Keyword];
+
+switch($Result){
+  case "News";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList.php".$url."'</script>" ;
+	break;
+  case "News1";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList1.php".$url."'</script>" ;
+	break;
+  case "News2";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList2.php".$url."'</script>" ;
+	break;
+  case "News3";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList3.php".$url."'</script>" ;
+	break;
+  case "News4";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList4.php".$url."'</script>" ;
+	break;
+  case "News5";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='NewsList5.php".$url."'</script>" ;
+	break;
+  case "Job";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='JobList.php".$url."'</script>" ;
+	break;
+  case "Products";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='ProductList.php".$url."'</script>" ;
+	break;
+  case "Products1";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='ProductList1.php".$url."'</script>" ;
+	break;
+  case "Products2";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='ProductList2.php".$url."'</script>" ;
+	break;	
+  case "Products3";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='ProductList3.php".$url."'</script>" ;
+	break;	
+  case "Products5";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='ProductList5.php".$url."'</script>" ;
+	break;
+  case "Pic";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList.php".$url."'</script>" ;
+	break;	
+  case "Pic1";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList1.php".$url."'</script>" ;
+	break;
+  case "Pic2";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList2.php".$url."'</script>" ;
+	break;
+  case "Pic3";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList3.php".$url."'</script>" ;
+	break;
+  case "Pic4";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList4.php".$url."'</script>" ;
+	break;
+  case "Pic5";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList5.php".$url."'</script>" ;
+	break;
+  case "Pic6";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList6.php".$url."'</script>" ;
+	break;
+  case "Pic7";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='PicList7.php".$url."'</script>" ;
+	break;	
+  case "Down";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='DownList.php".$url."'</script>" ;
+	break;	 
+  case "Message";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='MessageList.php".$url."'</script>" ;
+	break;
+  case "Message1";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='MessageList1.php".$url."'</script>" ;
+	break;
+  case "Member";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='MemberList.php".$url."'</script>" ;
+	break;
+  case "Customers";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='CustomersList.php".$url."'</script>" ;
+	break;
+  case "Admin";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='AdminList.php".$url."'</script>" ;
+	break;
+  case "Order";
+    $url="?Result=Search&Keyword=$Keyword" ;
+	echo "<script>location.href='OrderList.php".$url."'</script>" ;
+	break;	
+  
+}
+?> 
+ 
+
+ 

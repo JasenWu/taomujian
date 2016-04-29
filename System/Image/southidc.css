@@ -1,0 +1,29 @@
+@charset "utf-8";
+body{overflow-x:hidden;overflow-y:auto;background:#fff;}
+body,div,form,input,select,textarea,td{font-family:Verdana,"", Arial,sans-serif ;font-size:12px;}
+body,div,body,table,ul,ol,h3,h2,form,p{margin:0;padding:0;list-style-type: none;}
+img{border:none;}
+
+a {
+  color:#999;
+  text-decoration:none;}
+  
+
+a:hover{color:#F60;}
+
+/*Login Style*/
+
+.cc01 { background:url(Image/index_8.gif) repeat-x;}
+.cc02 { background:url(Image/index_14.gif) no-repeat center;}
+.cc03 {
+  background:url(Image/login_03_2.jpg) no-repeat left top;}
+  
+.cc04 { font-family:Verdana,sans-serif; font-size:9px; width:200px; float:right; text-align:right; display:inline; margin:10px 10px 10px 0; color:#d6d3dd;}
+.cc05 { background:url(Image/index_6.gif) no-repeat;}
+.cc06 { margin:82px 0px 0px 27px;}
+.cc07 { color:#999; height:16px; line-height:14px; border:1px solid #a8aacf; background:#fff; padding-left:3px;}
+.cc08 { background:#113c6a; color:#ffffff;}
+.cc09 { color:#535359; font-family:arial; font-size:12px;}
+.cc10 { font-family:verdana; color:#f00; font-weight:bold;}
+.cc11 { margin-left:20px;}
+.cc12 { background:url(Image/login_03_7.jpg) no-repeat right top;}

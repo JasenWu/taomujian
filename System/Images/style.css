@@ -1,0 +1,168 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #e6f2fd; FONT-SIZE: 12px; OVERFLOW-X: hidden; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #d6e4ef; COLOR: #003f7b; SCROLLBAR-3DLIGHT-COLOR: #f1f9ff; SCROLLBAR-ARROW-COLOR: #006699; SCROLLBAR-TRACK-COLOR: #f1f9ff; FONT-FAMILY: Arial; SCROLLBAR-DARKSHADOW-COLOR: #f1f9ff; BACKGROUND-COLOR: #f4fbff
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.input {
+	BORDER-RIGHT: #075198 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #075198 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #075198 1px solid; WIDTH: 100%; COLOR: #004282; LINE-HEIGHT: 12px; PADDING-TOP: 2px; BORDER-BOTTOM: #075198 1px solid; FONT-FAMILY: "Arial"; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+.input2 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 11px; BACKGROUND-Image: url(in3.gif); BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #003f7b; LINE-HEIGHT: 17px; BORDER-BOTTOM: medium none; FONT-FAMILY: "verdana"; HEIGHT: 19px
+}
+.bt {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; FONT-SIZE: 11px; BORDER-LEFT: 1px outset; CURSOR: pointer; COLOR: #075198; LINE-HEIGHT: 18px; BORDER-BOTTOM: 1px outset; FONT-FAMILY: "verdana"; HEIGHT: 20px; BACKGROUND-COLOR: #d7e7f5
+}
+.select {
+	FONT-SIZE: 12px; MARGIN: 1px; WIDTH: 100%; COLOR: #003567; LINE-HEIGHT: 25px; FONT-FAMILY: "verdana"; BACKGROUND-COLOR: #ffffff
+}
+A:link {
+	COLOR: #003f7b; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003f7b; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff4800; TEXT-DECORATION: none
+}
+TD.ty {
+	FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=1)
+}
+TD.ty A:link {
+	COLOR: #003f7b
+}
+TD.ty A:visited {
+	COLOR: #003f7b; TEXT-DECORATION: none
+}
+TD.ty A:hover {
+	COLOR: #003f7b; TEXT-DECORATION: underline
+}
+.enfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: "verdana"
+}
+TD.enfont2 {
+	FONT-SIZE: 11px; FONT-FAMILY: "Arial"
+}
+TD.content {
+	TEXT-JUSTIFY: inter-ideograph; LINE-HEIGHT: 23px; TEXT-DECORATION: none; WORD-WRAP: break-word
+}
+TD.content A:link {
+	TEXT-JUSTIFY: inter-ideograph; LINE-HEIGHT: 23px; TEXT-DECORATION: none
+}
+TD.content A:hover {
+	TEXT-JUSTIFY: inter-ideograph; LINE-HEIGHT: 23px; TEXT-DECORATION: underline
+}
+TD.content A:visited {
+	TEXT-JUSTIFY: inter-ideograph; LINE-HEIGHT: 23px; TEXT-DECORATION: none
+}
+.foot {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-Image: url(admin-foot.gif); BACKGROUND-REPEAT: repeat-x
+}
+.top {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-Image: url(admin-top.gif); BACKGROUND-REPEAT: repeat-x
+}
+.foot2 {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-Image: url(admin-left2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.line {
+	BORDER-BOTTOM: #cfdeed 1px dotted
+}
+.case {
+	BORDER-RIGHT: #e3e3e3 1px groove; PADDING-RIGHT: 3px; BORDER-TOP: #e3e3e3 1px groove; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #e3e3e3 1px groove; LINE-HEIGHT: 120%; PADDING-TOP: 3px; BORDER-BOTTOM: #e3e3e3 1px groove; BACKGROUND-COLOR: #fdfeff
+}
+.button { 
+	border-left: #ffffff 1px ridge; 
+	border-right: #333333 1px ridge; 
+	border-top: #ffffff 1px ridge; 
+	border-bottom: #1c1c1c 1px ridge; 
+    font-family:"";
+	font-size: 12px;
+    color: #1c1c1c; 
+	background-color: #EBF2F9; 
+	cursor: hand; 
+}
+/* ̨-------------------------------------- */
+.SortFolderOpen {
+	background-Image: url(Sort_Folder_Close.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortFolderClose {
+	background-Image: url(Sort_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderOpen {
+	background-Image: url(SortEnd_Folder_Close.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderClose {
+	background-Image: url(SortEnd_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortListline {
+	padding-left: 16px;
+	background-Image: url(Sort_Listline.gif);
+	background-repeat: repeat-y;
+}
+.SortEndListline {
+	padding-left: 16px;
+}
+.SortFile {
+	background-Image: url(Sort_File.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+.SortFileEnd {
+	background-Image: url(Sort_File_End.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+
+
+
+
+DIV.sabrosus {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}
+
+#main3,#main4,#main5,#main6,#main7,#main8{ display:none;}

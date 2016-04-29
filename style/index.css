@@ -1,0 +1,113 @@
+﻿/*桃木剑*/
+.head{ height:119px; background:url(../images/face/head_bg.jpg) repeat-x;}
+.logo{ width:288px; height:119px; background-position:left top; text-indent:-999px; overflow:hidden;}
+.language{ padding-top:70px;}
+.language a{ font-size:14px; color:#666666;}
+.language a:hover{ color:#ff0000;/*标准红*/}
+.language .zh{ padding-right:15px;}
+
+.nav{height:57px; background:url(../images/face/nav_bg.jpg) repeat-x; border-bottom:1px solid #cbc9c9;}
+.nav_wrap {border-left:1px solid #cbc9c9; }
+.nav_wrap li{height:57px; border-right:1px solid #cbc9c9; }
+.first_icon{ width:58px;}
+.first_icon em{ margin-left:20px; margin-top:20px; width:16px; height:14px; background-position:-4px -123px;}
+.nav_wrap li a{height:57px; line-height:57px; padding-left:30px; padding-right:30px; display:inline-block; font-size:16px; color:#666666;}
+.nav_wrap li .on{ background-color:#353535; color:#fff;}
+.nav_wrap li a:hover{ background-color:#353535; color:#fff;}
+
+.main{ padding-top:20px; padding-bottom:30px;}
+.main_left,.main_right{ padding:7px; width:468px; text-align:left;}
+.main_left_title{ font-weight:normal; height:52px; line-height:52px; text-indent:10px; color:#333333; font-size:20px; border-bottom:1px solid #cbc9c9;}
+.main_left_title_right_text{ padding-top:10px; padding-left:25px; width:235px; line-height:24px;}
+.main_left_title_right_text .div{ padding-bottom:15px; min-height:135px;}
+.div_en{ line-height:14px; text-align:justify;}
+
+.main_left_content{ padding:17px;}
+.main_body_more{ padding:2px 4px;   overflow:hidden; line-height:12px; text-align:center; border:1px solid #9f87ac; border-radius:5px; color:#9f87ac; font-size:12px;}
+.main_body_more:hover{ color:#000; border:1px solid #000; }
+ 
+
+.main_left_title_left_img,.main_left_title_left_img img{ width:160px; height:160px; display:block;}
+
+
+.footer{ background-color:#353535; padding:15px; line-height:24px; text-align:center; color:#fff;}
+
+
+
+.contact_us{ padding-top:30px; padding-bottom:40px;}
+.main_wrap{ padding-top:20px; padding-bottom:20px;}
+
+.about_us_title{  height:46px; line-height:46px; color:#333333;/*标准字体灰*/ font-size:20px; font-weight:normal; border-bottom:1px solid #cbc9c9;/*标准灰边值*/ text-align:left; text-indent:15px;}
+.wenhua{ padding:35px 24px;}
+.wenhua_li{ width:270px;text-align:left; margin-right:65px;}
+.wenhua_title{ height:32px; line-height:32px; font-size:16px; color:#fff; background-color:#c84126; text-indent:15px;}
+.wenhua_text{ padding:15px 0;  line-height:18px; border-bottom:1px solid #cbc9c9; min-height:90px; text-align:justify;}
+.wenhua_bottom{ padding-top:0;}
+.wenhua_li_img{ width:268px; height:139px; border:1px solid #cbc9c9; margin-top:15px;}
+.wenhua_li_img img{width:268px; height:139px;}
+.case_content{ padding-top:25px;}
+.case_text{ background-color:#eaeaea; color:#353535; margin-top:10px; padding:10px;}
+/*通路表单*/
+.main_bg { background:#f2f2f2;}
+.dongtai_content_list_right_button a ,.dongtai_content_list_right_button a:hover,
+{ background:url(/Html/c/images/face/guanweb_common_2014_04_28_09.png) no-repeat;display:block;}
+.dongtai_content_list_right_button { overflow:hidden; zoom:1; }
+.dongtai_content_list_right_button a{ width:66px; height:22px; line-height:22px; color:#fff; background-position:-10px -266px; float:right; text-align:center; }
+.dongtai_content_list_right_button a:hover{ background-position:-89px -266px;color:#fff;}
+
+
+.contact_us_right_title { overflow:hidden; zoom:1;}
+.contact_us_right_title b{ width:105px; height:26px; overflow:hidden;  padding-bottom:10px; display:block; float:left; text-align:center; font-size:22px; color:#000000; border-bottom:1px solid #000000; font-weight:normal;}
+.contact_us_right_title span{width:568px;height:36px; line-height:36px; border-bottom:1px solid #dddcdc;display:block; float:left; }
+
+.contact_us_right_table {  margin-left:113px; margin-top:20px;}
+.contact_us_right_table tr{line-height:18px;}
+.contact_us_right_table td{ padding-bottom:3px; vertical-align:top;line-height: 32px;}
+.contact_us_right_table_title {color:#555555; padding-right:5px; text-align:right; }
+.contact_us_right_table_input input,.contact_us_right_table_input textarea{width:218px;  padding:3px; text-indent:3px;border:1px solid #dddcdc;  background:#fafafa; }
+.contact_us_right_table_input input {  height:22px;}
+.contact_us_right_table_input textarea {  height:90px;_height:70px;}
+.contact_us_right_table_ps { color:#f93131; padding-left:5px;}
+.contact_us_right_submit {  text-align:right; }
+.contact_us_right_submit  .submit {  height:32px; margin:0 auto; margin-top:5px; line-height:20px; color:#555555; text-align:center; cursor:pointer;border:1px solid #dddcdc; display:block; }
+.contact_us_right_submit  .submit:hover{ color:#0052a4;}
+
+.products_main{border:1px solid #cbc9c9;  padding-bottom:15px;}
+.products_main_left{ width:280px; padding-top:15px;}
+.products_main_right{ width:650px;padding-top:15px; padding-left:40px;border-left:1px solid #dddcdc; }
+
+.left_nav{text-align:left;}
+.left_nav li a{ display:block; width:255px; height:63px; line-height:63px; padding-left:25px;border-bottom:1px solid #cbc9c9; color:#333; font-size:18px;}
+.left_nav li a:hover{ background-color:#c04027; color:#fff; }
+.left_nav li a.on{ background-color:#c04027; color:#fff; }
+
+.products_title{ color:#c04027; font-size:20px; padding-left:15px;  height:46px; line-height:46px;text-align:left;border-bottom:1px solid #cbc9c9;}
+
+.products_title span{ color:#8a8989; height:46px; line-height:46px; font-size:25px; font-weight:normal; padding-right:15px;}
+
+.contact_us {  text-align:left;}
+.contact_us_left, .contact_us_right {height:305px;border:1px solid #dddcdc; padding-top:23px; padding-bottom:22px; background:#fff; }
+.contact_us_left { width:230px; padding-left:13px; padding-right:13px; }
+.contact_us_left h2{ padding-bottom:10px; font-size:22px; color:#000000;border-bottom:1px solid #dddcdc; font-weight:normal;}
+.contact_us_left h3{ padding-top:10px; font-size:12px; color:#0052a4; line-height:42px; font-weight:normal;}
+.contact_us_left .left_title { width:61px; text-align:left;padding-right: 5px;vertical-align: top;}
+.contact_us_left td{ line-height:24px;}
+
+.contact_us_right {width:674px; padding-left:26px; padding-right:26px; }
+
+
+.JS_show_products li{ display:none;}
+.JS_show_products .on{ display:block;}
+
+.contact_us_left_en{ font-size:12px;}
+
+.contact_us_right_table_en{ font-size:12px; margin-left:0;}
+
+
+.wenhua_text_en{ font-size:14px;}
+.contact_us_right_table_input_en input,.contact_us_right_table_input_en textarea,.contact_us_right_table_input_en .submit{width:147px;}
+.wenhua_bottom_en .wenhua_text{ min-height:180px;}
+.contact_us_right_title_en b{width:155px;}
+.contact_us_right_title_en span{width:518px;}
+
+

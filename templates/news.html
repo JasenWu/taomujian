@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{#include file="_title.html"#}
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background:url(images/body_bg_pro.jpg) center top no-repeat;">
+<div class="infobody"> {#include file="_top.html"#}
+  <div class="ny_content">
+    <div class="location">
+      <h1><font class="img_left">公司动态<span>NEWS</span></font>
+        <div class="location_rightwz"><img src="images/Icon_1.gif" class="img_left" width="15" height="11"  /><a href="index.php">首页</a> > {#$sort_name#}</div>
+      </h1>
+    </div>
+    {#include file="_left_new.html"#}
+    <div class="n_right">
+      <h2><font class="img_left">NEWS <span>{#$sort_name#}</span></font></h2>
+      <h3>company News</h3>
+      <div class="new_left">
+        <ul>
+          
+          
+          {#if $info_reslut==""#} 
+              <span style="color:#666;">暂无添加 </span> 
+         {#else#}    
+             {#section loop=$info_reslut name=rs#}
+                 <li><a href="news_show_{#$info_reslut[rs].id#}.html" title="{#$info_reslut[rs].news_name#}">{#$info_reslut[rs].news_name#}</a><span>[{#$info_reslut[rs].add_time|date_format:"%Y-%m-%d"#}]</span></li>
+             {#/section#}  
+         {#/if#}    
+          
+        </ul>
+      </div>
+      <div class="megas512">{#$showpage#}</div>
+    </div>
+    <div class="content_bottom"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+{#include file="_foot.html"#}
+</body>
+</html>
